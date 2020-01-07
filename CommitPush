@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Inputs:
+
+# ${1} : commit message
+# ${2} : branch to commit
+
+git add -A .
+git commit -m "${1}"
+git push origin ${2}
